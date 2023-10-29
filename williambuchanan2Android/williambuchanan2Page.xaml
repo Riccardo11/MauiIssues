@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="williambuchanan2Android.Williambuchanan2Page" Title="DomTestPage"
+             NavigationPage.HasNavigationBar="False" Shell.FlyoutBehavior="Disabled">
+    <ScrollView >
+        <VerticalStackLayout VerticalOptions="End">
+            <Label  HorizontalOptions="Center"  Text="Add Your Team"  />
+            <Label HorizontalOptions="Center" Text="Add your three emergency contacts." Margin="10"/>
+            <Label  HorizontalOptions="Start"  Text="Contact 1" Margin="10"/>
+            <Grid ColumnDefinitions="55,*" RowDefinitions="*" Margin="10">
+                <AbsoluteLayout Grid.Row="0" Grid.Column="0">
+                    <Ellipse HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="45" HeightRequest="45" Margin="0, 10" StrokeThickness="2"/>
+                    <Label Text="1" WidthRequest="45" HeightRequest="45" Margin="0, 10" HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center" TextColor="White"/>
+                </AbsoluteLayout>
+                <StackLayout Grid.Row="0" Grid.Column="1">
+                    <Entry Text="{Binding Contact1Name}"  ReturnType="Next" />
+                    <Entry Text="{Binding Contact1Mobile}"  ReturnType="Next" />
+                </StackLayout>
+            </Grid>
+            <Label HorizontalOptions="Start"  Text="Contact 2" Margin="10"/>
+            <Grid   Padding="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="55" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <AbsoluteLayout Grid.Row="0" Grid.Column="0">
+                    <Ellipse HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="45" HeightRequest="45"
+                        Margin="0, 10" StrokeThickness="2"/>
+                    <Label Text="2" WidthRequest="45" HeightRequest="45" Margin="0, 10" HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center" TextColor="LightGray"/>
+                </AbsoluteLayout>
+                <StackLayout Grid.Row="0" Grid.Column="1">
+                    <Entry Text="{Binding Contact2Name}" ReturnType="Next"  />
+                    <Entry Text="{Binding Contact2Mobile}"  ReturnType="Next"  />
+                </StackLayout>
+            </Grid>
+            <Label  HorizontalOptions="Start"   Text="Contact 3" Margin="10"/>
+            <Grid Padding="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="55" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <AbsoluteLayout Grid.Row="0" Grid.Column="0">
+                    <Ellipse HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="45" HeightRequest="45"
+                        Margin="0, 10" StrokeThickness="2"/>
+                    <Label Text="3" WidthRequest="45" HeightRequest="45" Margin="0, 10"
+                        HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="LightGray"/>
+                </AbsoluteLayout>
+                <StackLayout Grid.Row="0" Grid.Column="1">
+                    <Entry Text="{Binding Contact3Name}" ReturnType="Next" />
+                    <Entry Text="{Binding Contact3Mobile}" ReturnType="Next" />
+                </StackLayout>
+            </Grid>
+            <Button  VerticalOptions="End" Margin="0, 20" HeightRequest="50" Text="Continue" 
+                Command="{Binding NextButtonPressedCommand}"/>
+        </VerticalStackLayout >
+    </ScrollView>
+</ContentPage>

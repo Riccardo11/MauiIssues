@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ButtonWithGradientAndShadow", "ButtonWithGradientAndShadow\ButtonWithGradientAndShadow.csproj", "{8A2C371A-D0D7-492A-94AA-63C115BC0C91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "williambuchanan2Android", "williambuchanan2Android\williambuchanan2Android.csproj", "{625C2CCE-BD88-4284-87A5-EFAF0DFA838C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizationInRelease", "LocalizationInRelease\LocalizationInRelease.csproj", "{1D0527EA-0376-4FC7-8D55-9EE324794DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsViewInScrollView", "GraphicsViewInScrollView\GraphicsViewInScrollView.csproj", "{224B4FDF-739D-41A4-8650-0D1B8C37BEAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +23,18 @@ Global
 		{8A2C371A-D0D7-492A-94AA-63C115BC0C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A2C371A-D0D7-492A-94AA-63C115BC0C91}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8A2C371A-D0D7-492A-94AA-63C115BC0C91}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{625C2CCE-BD88-4284-87A5-EFAF0DFA838C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625C2CCE-BD88-4284-87A5-EFAF0DFA838C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625C2CCE-BD88-4284-87A5-EFAF0DFA838C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625C2CCE-BD88-4284-87A5-EFAF0DFA838C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0527EA-0376-4FC7-8D55-9EE324794DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0527EA-0376-4FC7-8D55-9EE324794DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0527EA-0376-4FC7-8D55-9EE324794DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0527EA-0376-4FC7-8D55-9EE324794DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224B4FDF-739D-41A4-8650-0D1B8C37BEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224B4FDF-739D-41A4-8650-0D1B8C37BEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224B4FDF-739D-41A4-8650-0D1B8C37BEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224B4FDF-739D-41A4-8650-0D1B8C37BEAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
