@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GraphicsViewInScrollView.MainPage">
     
+    <!-- Set Orientation to a value different from Vertical -->
     <ScrollView
-        Orientation="Both"
+        Orientation="Vertical"
         BackgroundColor="LightGray">
         <GraphicsView
             x:Name="GraphicsView" />

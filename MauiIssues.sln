@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizationInRelease", "Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsViewInScrollView", "GraphicsViewInScrollView\GraphicsViewInScrollView.csproj", "{224B4FDF-739D-41A4-8650-0D1B8C37BEAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollViewOrientationNeither", "ScrollViewOrientationNeither\ScrollViewOrientationNeither.csproj", "{A3B976C8-F317-40F4-89D9-D0304335C5FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{224B4FDF-739D-41A4-8650-0D1B8C37BEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{224B4FDF-739D-41A4-8650-0D1B8C37BEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{224B4FDF-739D-41A4-8650-0D1B8C37BEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B976C8-F317-40F4-89D9-D0304335C5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B976C8-F317-40F4-89D9-D0304335C5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B976C8-F317-40F4-89D9-D0304335C5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B976C8-F317-40F4-89D9-D0304335C5FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
