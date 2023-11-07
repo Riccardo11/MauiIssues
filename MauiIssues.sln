@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsViewInScrollView", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollViewOrientationNeither", "ScrollViewOrientationNeither\ScrollViewOrientationNeither.csproj", "{A3B976C8-F317-40F4-89D9-D0304335C5FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeasureStringWrongBounds", "MeasureStringWrongBounds\MeasureStringWrongBounds.csproj", "{B60692AC-B193-431B-A1A4-7FC4A10BB66A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{A3B976C8-F317-40F4-89D9-D0304335C5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3B976C8-F317-40F4-89D9-D0304335C5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3B976C8-F317-40F4-89D9-D0304335C5FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60692AC-B193-431B-A1A4-7FC4A10BB66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60692AC-B193-431B-A1A4-7FC4A10BB66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60692AC-B193-431B-A1A4-7FC4A10BB66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60692AC-B193-431B-A1A4-7FC4A10BB66A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
