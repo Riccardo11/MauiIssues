@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RadioButtonText.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+        <RadioButton
+            x:Name="BuggedRadioButton"
+            TextColor="Red"
+            FontSize="50"
+            TextTransform="Uppercase"
+            FontAttributes="Bold"
+            Content="Hello, world!" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

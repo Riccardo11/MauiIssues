@@ -7,8 +7,10 @@
     <ContentPage.Resources>
         <measureStringWrongBounds:MyDrawable x:Key="MyDrawable" />
     </ContentPage.Resources>
-    
-    <GraphicsView
-        Drawable="{StaticResource MyDrawable}" />
+
+    <Grid>
+        <GraphicsView
+            Drawable="{StaticResource MyDrawable}" />
+    </Grid>
 
 </ContentPage>
