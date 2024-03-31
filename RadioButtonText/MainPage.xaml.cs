@@ -2,7 +2,7 @@
 
 public partial class MainPage : ContentPage
 {
-    private const bool APPLY_WORKAROUND = false;
+    private const bool APPLY_WORKAROUND = true;
     
     public MainPage()
     {

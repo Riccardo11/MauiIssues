@@ -1,7 +1,7 @@
 // Only one must be enabled
 
-#define NEWLINE_IOS
-// #define STRING_NOT_VISIBLE_IOS
+// #define NEWLINE_IOS
+#define STRING_NOT_VISIBLE_IOS
 
 #if IOS
 using CoreGraphics;
@@ -17,41 +17,41 @@ namespace MeasureStringWrongBounds;
 public class MyDrawable : IDrawable
 {
 #if NEWLINE_IOS
-    // private const string StringToVisualize = "HELLO, WORLD!\nCiao mondo row 2\nGuten tag!?àèìòù@";
-    private const string StringToVisualize = "Ciaomondorowfdskle";
+    private const string StringToVisualize = "HELLO, WORLD!\nCiao mondo row 2\nGuten tag!?àèìòù@";
+    // private const string StringToVisualize = "Ciaomondorowfdskle";
 #endif
     
 #if STRING_NOT_VISIBLE_IOS
     private const string StringToVisualize = "HELLO, WORLD!";
 #endif
     
-    private const int FontSize = 20;
+    private const int FontSize = 40;
     
     // This makes better the NEWLINE_IOS with the non deprecated API
-    // private static Font Font = new("Arial");
-    private static Font Font = Font.Default;
+    private static Font Font = new("Arial");
+    // private static Font Font = Font.Default;
     
     public void Draw(ICanvas canvas, RectF dirtyRect)
     {
         canvas.SaveState();
         
-#if !IOS
-        var stringSize = canvas.GetStringSize(StringToVisualize, Font.Default, FontSize);
-#endif
-#if IOS
-    var cgSize = new NSString(StringToVisualize).GetBoundingRect( 
-        CGSize.Empty, 
-        NSStringDrawingOptions.UsesLineFragmentOrigin,
-        new UIStringAttributes { Font = Font.ToPlatformFont(FontSize),  }, 
-        null).Size;
-    var stringSize = new SizeF((float)cgSize.Width, (float)cgSize.Height);
+// #if !IOS
+        var stringSize = canvas.GetStringSize(StringToVisualize, Font, FontSize);
+// #endif
+// #if IOS
+//     var cgSize = new NSString(StringToVisualize).GetBoundingRect( 
+//         CGSize.Empty, 
+//         NSStringDrawingOptions.UsesLineFragmentOrigin,
+//         new UIStringAttributes { Font = Font.ToPlatformFont(FontSize),  }, 
+//         null).Size;
+//     var stringSize = new SizeF((float)cgSize.Width, (float)cgSize.Height);
     
     
     // var cgSize = new NSString(StringToVisualize).StringSize(Font.Default.ToPlatformFont(FontSize), CGSize.Empty);
     // var stringSize = new SizeF((float)cgSize.Width, (float)cgSize.Height);
     
     // var stringSize = canvas.GetStringSize(StringToVisualize, Font, FontSize, HorizontalAlignment.Left, VerticalAlignment.Top);
-#endif
+// #endif
         
         
         
