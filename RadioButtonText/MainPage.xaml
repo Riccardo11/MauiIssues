@@ -9,7 +9,7 @@
             Spacing="25">
         <RadioButton
             x:Name="BuggedRadioButton"
-            TextColor="Red"
+            TextColor="Yellow"
             FontSize="50"
             TextTransform="Uppercase"
             FontAttributes="Bold"

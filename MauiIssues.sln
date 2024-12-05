@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtonText", "RadioBut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardOniOS", "KeyboardOniOS\KeyboardOniOS.csproj", "{0E461216-D1B9-42DE-BA4E-B9D5BD1C34DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryNextiOS", "EntryNextiOS\EntryNextiOS.csproj", "{918715FF-E10C-4946-8E69-D2423B34E094}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{0E461216-D1B9-42DE-BA4E-B9D5BD1C34DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E461216-D1B9-42DE-BA4E-B9D5BD1C34DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E461216-D1B9-42DE-BA4E-B9D5BD1C34DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918715FF-E10C-4946-8E69-D2423B34E094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918715FF-E10C-4946-8E69-D2423B34E094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918715FF-E10C-4946-8E69-D2423B34E094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918715FF-E10C-4946-8E69-D2423B34E094}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
